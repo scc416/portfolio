@@ -5,6 +5,7 @@
   padding: 0;
   color: #353535;
   box-sizing: border-box;
+  line-height: 1.8em;
 }
 
 body {
@@ -22,7 +23,7 @@ nav {
 }
 
 section {
-  padding: 0 1%;
+  padding: 0 0.2%;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -31,7 +32,6 @@ section {
 
 h5 {
   font-style: italic;
-  text-transform: uppercase;
 }
 
 p {
@@ -45,7 +45,7 @@ p {
 
 section > ul {
   list-style-position: inside;
-  padding:  0 0 3% 1em;
+  padding: 0 0 3% 1em;
   font-size: 1.3em;
   text-align: left;
 }
@@ -55,7 +55,8 @@ section > ul ul {
   list-style-type: square;
 }
 
-section > ul ul, li {
+section > ul ul,
+li {
   padding: 0 0 0.5em 2em;
 }
 
@@ -83,7 +84,6 @@ h1 {
 
 img {
   width: 100%;
-  margin-bottom: 4%;
 }
 
 .card div {
@@ -96,10 +96,16 @@ img {
   .card {
     width: 50%;
   }
+  img {
+    margin-bottom: 3%;
+  }
 }
 
 @media (min-width: 1024px) {
   .card {
     width: 33.3%;
+  }
+  img {
+    margin-bottom: 6%;
   }
 }
