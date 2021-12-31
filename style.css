@@ -45,7 +45,7 @@ p {
 
 section > ul {
   list-style-position: inside;
-  padding-left: 1em;
+  padding:  0 0 3% 1em;
   font-size: 1.3em;
   text-align: left;
 }
