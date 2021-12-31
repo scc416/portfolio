@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #353535;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+nav {
+  text-decoration: underline;
+  font-family: "Lato";
+  font-size: 1.5em;
+  text-align: left;
+  padding: 1em 5%;
+  font-weight: 900;
+}
+
+section {
+  padding: 0 1%;
+  display: flex;
+  margin-top: 1em;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+ul {
+  width: 80%;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2% 8% 2%;
+}
+
+.card * {
+  padding: 1% 0;
+}
+
+img {
+  width: 100%;
+}
+
+.card div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 33.3%;
+  }
+}
