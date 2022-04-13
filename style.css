@@ -45,7 +45,7 @@ p {
 
 section > ul {
   list-style-position: inside;
-  padding: 0 0 3% 1em;
+  padding: 0 0 0 1em;
   font-size: 1.3em;
   text-align: left;
 }
@@ -75,7 +75,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 2% 5% 2%;
+  padding: 0 2% 2em 2%;
 }
 
 .card * {
@@ -90,6 +90,12 @@ img {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+.description {
+  font-size: 0.8em;
+  position: relative;
+  bottom: 0.03em;
 }
 
 @media (min-width: 480px) {
